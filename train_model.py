@@ -7,7 +7,6 @@ from tensorflow.keras.layers import LSTM, Dense
 from tensorflow.keras.callbacks import ModelCheckpoint
 import joblib
 
-# train_model
 
 file_path = "train_data.csv"
 df = pd.read_csv(file_path)
